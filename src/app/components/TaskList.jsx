@@ -30,10 +30,9 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
-    createNewTask(id) {
-      console.log('Creating new task ...', id);
+    createNewTask: function(id) {
       dispatch(requestTaskCreation(id));
     }
   }
-}
+};
 export default connect(mapStateToProps, mapDispatchToProps)(TaskList);
