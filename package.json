@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/Bryan-Cee/Fullstack-MERN#readme",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "history": "^4.7.2",
     "react": "^16.4.2",
     "react-dom": "^16.5.0",
